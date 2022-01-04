@@ -1,0 +1,1 @@
+#Kiểm tra thông báo khi nhập thiếu thông tin thanh toán(nhập sai số điện thoại)
