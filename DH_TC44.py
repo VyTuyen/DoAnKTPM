@@ -22,11 +22,8 @@ driver.find_element(By.ID,'checkout').click()
 
 driver.find_element(By.ID,'billing_address_full_name').click()
 driver.find_element(By.ID,'billing_address_full_name').send_keys('tuyn')
-driver.find_element(By.ID,'checkout_user_email').click()
 driver.find_element(By.ID,'checkout_user_email').send_keys('123@gmail.com')
-driver.find_element(By.ID,'billing_address_phone').click()
 driver.find_element(By.ID,'billing_address_phone').send_keys('1234')
-driver.find_element(By.ID,'billing_address_address1').click()
 driver.find_element(By.ID,'billing_address_address1').send_keys('thôn CLB')
 
 province = Select(driver.find_element(By.ID,'customer_shipping_province'))

@@ -10,7 +10,6 @@ driver.find_element(By.PARTIAL_LINK_TEXT, "Đăng nhập").click()
 try:
     driver.implicitly_wait(5)
     driver.find_element(By.PARTIAL_LINK_TEXT, "Quên mật khẩu?").click()
-    driver.find_element(By.ID,'recover-email').click()
     driver.find_element(By.ID,'recover-email').send_keys('19540118tuyen@ou.edu.vn')
     driver.find_element(By.XPATH,'//div[@id="recover-password"]/form/div[2]/input').click()
 except Exception as ex:

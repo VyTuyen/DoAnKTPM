@@ -8,9 +8,7 @@ driver.get('https://bitis.com.vn/')
 
 driver.find_element(By.PARTIAL_LINK_TEXT, "Đăng nhập").click()
 driver.implicitly_wait(3)
-driver.find_element(By.ID, "customer_email").click()
 driver.find_element(By.ID, "customer_email").send_keys("nganvatuyen123@gmail.com")
-driver.find_element(By.ID, "customer_password").click()
 driver.find_element(By.ID, "customer_password").send_keys("concuatroi")
 driver.find_element(By.CSS_SELECTOR, ".btn-signin").click()
 

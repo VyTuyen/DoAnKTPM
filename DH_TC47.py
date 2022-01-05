@@ -30,10 +30,19 @@ driver.find_element(By.ID,'billing_address_address1').send_keys('thôn CLB')
 
 province = Select(driver.find_element(By.ID,'customer_shipping_province'))
 province.select_by_index(2)
-district = Select(driver.find_element(By.ID,'customer_shipping_district'))
-district.select_by_index(1)
-ward = Select(driver.find_element(By.ID,'customer_shipping_ward'))
-ward.select_by_index(3)
+#if not province.isDisplayed():
+
+#driver.implicitly_wait(5)
+#district = Select(driver.find_element(By.ID,'customer_shipping_district'))
+#district.select_by_index(1)
+# ward = Select(driver.find_element(By.ID, 'customer_shipping_ward'))
+##  ward.select_by_index(3)
+#WebElement submitButton = driver.findElement(By.id("a"));
+#if(submitButton.isDisplayed()
+# submitButton.click()
+#else:
+       # Select(driver.find_element(By.ID,"customer_shipping_district"))
+
 
 driver.implicitly_wait(3)
 driver.find_element(By.XPATH,'//form[@id="form_next_step"]/button/i').click()
