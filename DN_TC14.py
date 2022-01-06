@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 import time
 
 driver = webdriver.Chrome(executable_path='venv/chromedriver')
+driver.set_window_size(1296, 696)
 driver.get('https://bitis.com.vn/')
 
 driver.find_element(By.PARTIAL_LINK_TEXT, "Đăng nhập").click()
