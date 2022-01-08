@@ -5,7 +5,7 @@ import time
 
 driver = webdriver.Chrome(executable_path='venv/chromedriver')
 driver.get('https://bitis.com.vn/')
-
+driver.find_element(By.XPATH, "//div[@id='notifyCoupon']/div/div/div/button").click()
 driver.find_element(By.PARTIAL_LINK_TEXT, "Đăng nhập").click()
 
 driver.implicitly_wait(5)

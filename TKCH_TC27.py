@@ -7,6 +7,7 @@ from  selenium.webdriver.support.ui import Select
 driver = webdriver.Chrome(executable_path='venv/chromedriver')
 driver.get('https://bitis.com.vn/')
 
+driver.find_element(By.XPATH, "//div[@id='notifyCoupon']/div/div/div/button").click()
 driver.find_element(By.PARTIAL_LINK_TEXT,'Tìm cửa hàng')
 driver.find_element(By.XPATH,"//select[@name='change-tinh']").click()
 type=Select(driver.find_element(By.NAME, 'change-tinh'))

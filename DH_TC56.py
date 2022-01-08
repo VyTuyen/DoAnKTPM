@@ -6,6 +6,7 @@ import time
 driver = webdriver.Chrome(executable_path='venv/chromedriver')
 driver.get('https://bitis.com.vn/')
 
+driver.find_element(By.XPATH, "//div[@id='notifyCoupon']/div/div/div/button").click()
 driver.find_element(By.PARTIAL_LINK_TEXT,'GOSTO').click()
 driver.find_element(By.PARTIAL_LINK_TEXT,'Giày Búp Bê Bé Gái Gosto GFB000500DEN (Đen)*').click()
 driver.find_element(By.XPATH,'//*[@id="add-item-form"]/div[1]/div[2]/span[7]').click()
