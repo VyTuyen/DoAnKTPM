@@ -1,0 +1,331 @@
+{
+  "id": "e72228c6-e3d5-4e38-afb0-425e9d70f84d",
+  "version": "2.0",
+  "name": "IDE",
+  "url": "https://bitis.com.vn/",
+  "tests": [{
+    "id": "304e8673-db6e-4b4d-b333-604ee5059a21",
+    "name": "GH_TC38_Sua",
+    "commands": [{
+      "id": "7c20d205-0b31-4fdb-a168-e151c79c3430",
+      "comment": "",
+      "command": "open",
+      "target": "https://bitis.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cd8b9d5-91e6-48f0-ad9e-eecf69c89a33",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58d124ce-0c54-4f38-b601-44ab1c7869e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#notifyCoupon .close",
+      "targets": [
+        ["css=#notifyCoupon .close", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='notifyCoupon']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d86c3d8-4360-4839-bbeb-9c849a0e75cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart_header_top_box",
+      "targets": [
+        ["css=.cart_header_top_box", "css:finder"],
+        ["xpath=//div[@id='header_bottom']/div/div/div[6]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e0b306d-313a-4c10-80f6-ca2c61f9c640",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-shopping-cart",
+      "targets": [
+        ["css=.fa-shopping-cart", "css:finder"],
+        ["xpath=//div[@id='header_bottom']/div/div/div[6]/div/div[2]/a/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf876e37-5e55-4c01-8367-77270c86d618",
+      "comment": "",
+      "command": "type",
+      "target": "id=updates_1056671441",
+      "targets": [
+        ["id=updates_1056671441", "id"],
+        ["name=updates[]", "name"],
+        ["css=#updates_1056671441", "css:finder"],
+        ["xpath=//input[@id='updates_1056671441']", "xpath:attributes"],
+        ["xpath=//div[@id='cart-table']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "46a1b03a-71c6-46c9-90fa-6af7250736f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=updates_1056671441",
+      "targets": [
+        ["id=updates_1056671441", "id"],
+        ["name=updates[]", "name"],
+        ["css=#updates_1056671441", "css:finder"],
+        ["xpath=//input[@id='updates_1056671441']", "xpath:attributes"],
+        ["xpath=//div[@id='cart-table']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a497136-9e87-4a57-a1dd-14058a37938e",
+      "comment": "",
+      "command": "type",
+      "target": "id=updates_1056671441",
+      "targets": [
+        ["id=updates_1056671441", "id"],
+        ["name=updates[]", "name"],
+        ["css=#updates_1056671441", "css:finder"],
+        ["xpath=//input[@id='updates_1056671441']", "xpath:attributes"],
+        ["xpath=//div[@id='cart-table']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "a630473a-9e96-4cf9-a5c8-0e04b5fc591a",
+      "comment": "",
+      "command": "click",
+      "target": "id=updates_1056671441",
+      "targets": [
+        ["id=updates_1056671441", "id"],
+        ["name=updates[]", "name"],
+        ["css=#updates_1056671441", "css:finder"],
+        ["xpath=//input[@id='updates_1056671441']", "xpath:attributes"],
+        ["xpath=//div[@id='cart-table']/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb7e7c1b-bc05-4f0d-986f-590046af82a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=updates_1063914551",
+      "targets": [
+        ["id=updates_1063914551", "id"],
+        ["css=#updates_1063914551", "css:finder"],
+        ["xpath=//input[@id='updates_1063914551']", "xpath:attributes"],
+        ["xpath=//div[@id='cart-table']/div[3]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "ecc3e4a4-c15a-45e4-8380-69c4040e7ee0",
+      "comment": "",
+      "command": "click",
+      "target": "id=updates_1063914551",
+      "targets": [
+        ["id=updates_1063914551", "id"],
+        ["css=#updates_1063914551", "css:finder"],
+        ["xpath=//input[@id='updates_1063914551']", "xpath:attributes"],
+        ["xpath=//div[@id='cart-table']/div[3]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff73ab5b-956f-4877-aeab-df0ec13b6cf9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f9d22ccd-d508-4559-a6ca-976bac5ceada",
+    "name": "GH_TC39_Xoa",
+    "commands": [{
+      "id": "5b233051-6190-44d2-8d7e-b3ebdf8e9554",
+      "comment": "",
+      "command": "open",
+      "target": "https://bitis.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bce3525b-9ac2-41fd-89df-f4de98646911",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66a0fac1-cd30-4d79-b1b1-483958a82c33",
+      "comment": "",
+      "command": "click",
+      "target": "css=#notifyCoupon .close",
+      "targets": [
+        ["css=#notifyCoupon .close", "css:finder"],
+        ["xpath=(//button[@type='button'])[18]", "xpath:attributes"],
+        ["xpath=//div[@id='notifyCoupon']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "296e9fc7-8c79-4be2-a733-24096aa8613b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-shopping-cart",
+      "targets": [
+        ["css=.fa-shopping-cart", "css:finder"],
+        ["xpath=//div[@id='header_bottom']/div/div/div[6]/div/div[2]/a/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d7e4cc1-576f-4e9f-a61b-b9f64f1e74cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.line-item:nth-child(4) .fa",
+      "targets": [
+        ["css=.line-item:nth-child(4) .fa", "css:finder"],
+        ["xpath=//div[@id='cart-table']/div[2]/div[2]/a[2]/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b3b6531-f7d0-43ca-b14b-b1bd3bd85eb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.line-item:nth-child(4) .fa",
+      "targets": [
+        ["css=.line-item:nth-child(4) .fa", "css:finder"],
+        ["xpath=//div[@id='cart-table']/div[2]/div[2]/a[2]/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a00920cf-b54b-48a5-a38f-0f8fd7b0e870",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a0b79942-277f-48fa-8067-2dc42abfc3f1",
+    "name": "GH_TC40_Xoatatca",
+    "commands": [{
+      "id": "c5f71417-8b56-4da8-982a-a35b5bc8045c",
+      "comment": "",
+      "command": "open",
+      "target": "https://bitis.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54cbdc2b-7ffb-4f9f-9dfc-cfae03abda74",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67c7698d-c756-4f9f-a711-9969c0ff36e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#notifyCoupon .close",
+      "targets": [
+        ["css=#notifyCoupon .close", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='notifyCoupon']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bafd70c4-9822-4c56-ad41-c8304f6d6b80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-shopping-cart",
+      "targets": [
+        ["css=.fa-shopping-cart", "css:finder"],
+        ["xpath=//div[@id='header_bottom']/div/div/div[6]/div/div[2]/a/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "000b92d3-3d19-4922-9e0a-1896460c65ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.line-item:nth-child(4) > .item-title",
+      "targets": [
+        ["css=.line-item:nth-child(4) > .item-title", "css:finder"],
+        ["xpath=//div[@id='cart-table']/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d38e640d-337b-4cea-a92b-78a5d8b45f2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.line-item:nth-child(4) .fa",
+      "targets": [
+        ["css=.line-item:nth-child(4) .fa", "css:finder"],
+        ["xpath=//div[@id='cart-table']/div[2]/div[2]/a[2]/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60866571-2a9c-4590-a811-f2f71fb5f5e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.line-item:nth-child(4) .fa",
+      "targets": [
+        ["css=.line-item:nth-child(4) .fa", "css:finder"],
+        ["xpath=//div[@id='cart-table']/div[2]/div[2]/a[2]/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5028e9a-c04c-4b88-a8d5-d928c0673c2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.line-item:nth-child(4) .fa",
+      "targets": [
+        ["css=.line-item:nth-child(4) .fa", "css:finder"],
+        ["xpath=//div[@id='cart-table']/div[2]/div[2]/a[2]/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94e25ea9-7252-4f7e-ae72-d9c2de0f0b22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-times",
+      "targets": [
+        ["css=.fa-times", "css:finder"],
+        ["xpath=//div[@id='cart-table']/div[2]/div[2]/a[2]/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01ea6c6b-c86f-4663-8022-a136b172de0e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "bd2a3d7e-eadd-4985-bb29-c571d81b31c8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://bitis.com.vn/"],
+  "plugins": []
+}
